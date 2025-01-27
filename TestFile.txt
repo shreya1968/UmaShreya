@@ -1,0 +1,47 @@
+GIT COMMANDS 
+git --version
+git config --global user.name shreya
+git config --global user.email f31@bmsit.in
+git config --global user.name
+git config --global user.email
+git init
+mkdir,cd
+touch f1.txt
+code f1.txt
+git add f1.txt
+git commit -m "firstCommit"
+git remote add origin https://github.com/shreya1968/UmaShreya.git
+git remote -v 
+git push -u origin master
+git branch shreya
+git checkout shreya
+git checkout master 
+git status 
+git log 
+git push -u origin shreya
+git pull origin master or shreya
+git merge shreya (while in master account)
+git clone https://github.com/shreya1968/UmaShreya.git
+
+For 3rd Program
+mkdir actions-runner
+cd actions-runner
+curl -L -o (first action runner code of zip) followed by the https code 
+unzip (first action runner code of zip)
+
+DOCKER COMMANDS 
+docker ps
+docker images
+docker container ls
+docker container ls -a
+docker run -d -p 8081:80 nginx
+docker stop (container id)
+docker rm (container id)
+docker rmi -f busybox
+1.docker run busybox echo hello
+2.docker run -d -p 8080:80 nginx 
+3.docker run busybox
+4.docker pull busybox and docker pull nginx 
+5.docker build -t my-nginx-server
+6.docker run -d -p 8080:80 my-nginx-server
+7.docker rmi -f my-nginx-server
