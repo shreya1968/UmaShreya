@@ -42,6 +42,6 @@ docker rmi -f busybox
 2.docker run -d -p 8080:80 nginx 
 3.docker run busybox
 4.docker pull busybox and docker pull nginx 
-5.docker build -t my-nginx-server
+5.docker build -t my-nginx-server .
 6.docker run -d -p 8080:80 my-nginx-server
 7.docker rmi -f my-nginx-server
